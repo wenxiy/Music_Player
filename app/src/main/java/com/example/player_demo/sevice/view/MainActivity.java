@@ -1,8 +1,7 @@
-package com.example.player_demo.view;
+package com.example.player_demo.sevice.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.BroadcastReceiver;
 import android.os.Bundle;
 
 import com.example.player_demo.R;
