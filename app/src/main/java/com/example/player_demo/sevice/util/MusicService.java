@@ -4,7 +4,7 @@ import java.security.Provider;
 import java.util.List;
 import java.util.Map;
 
-public class MusicService extends Provider.Service {
+public class MusicService extends Service {
     /**
      * Construct a new service.
      *
@@ -16,7 +16,7 @@ public class MusicService extends Provider.Service {
      * @param attributes Map of attributes or null if this implementation
      *                   has no attributes
      * @throws NullPointerException if provider, type, algorithm, or
-     *                              className is null
+     * className is null
      */
     public MusicService(Provider provider, String type, String algorithm, String className, List<String> aliases, Map<String, String> attributes) {
         super(provider, type, algorithm, className, aliases, attributes);
