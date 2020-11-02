@@ -4,7 +4,7 @@ import java.security.Provider;
 import java.util.List;
 import java.util.Map;
 
-public class MusicService extends Service {
+public class MusicService extends Provider.Service {
     /**
      * Construct a new service.
      *
